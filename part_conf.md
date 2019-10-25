@@ -18,15 +18,15 @@
 			//list of countries
 			var countries = ["zambia", "zimbabwe", "south africa", "namibia", "botswana",
 					"lesotho",  "mozambique",  "democratic republic of congo", "the democratic republic of congo",
-					"congo, the democratic republic of the", "congo", "iceland", ];
+					"congo, the democratic republic of the", "congo", "iceland", "swaziland"];
 
 			//If the set country is among the countries in our custom flags list, use custom flag. Otherwise use default
 			if( countries.includes(country) ){
 				$('.navbar-home').html('<img class="erpnext-icon" src="'+
-											frappe.urllib.get_base_url()+'/assets/erpnext/images/'+ country +'.svg" />');
+					frappe.urllib.get_base_url()+'/assets/erpnext/images/'+ country +'.svg" />');
 			}
 			else {
 				$('.navbar-home').html('<img class="erpnext-icon" src="'+
-						frappe.urllib.get_base_url()+'/assets/erpnext/images/erp-icon.svg" />');
+					frappe.urllib.get_base_url()+'/assets/erpnext/images/erp-icon.svg" />');
 			}
-  }); //end of frappe.model.get_value
+        }); //end of frappe.model.get_value
