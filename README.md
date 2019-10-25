@@ -72,7 +72,8 @@ As it appears in ERPNext but in lower case
 - A permanent fix would involve placing the code in a custom app but this outside the scope of this task
 
 # Possible improvements
-- Add all countries
+- Add all countries, export from ERPNext into array // compare against entries in DB. Just requires renaming images once
+- make countries array to lowercase https://stackoverflow.com/questions/29719329/convert-array-into-upper-case/29719347
 
 
 # References and Credits
